@@ -1,0 +1,187 @@
+body {
+    background-color: #fef6ec;
+}
+
+.main {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.top-left {
+    float: left;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.top-right {
+    float: right;
+    width: 60%;
+    text-align: right;
+}
+
+.menu {
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 4%;
+    display: inline;
+    color: rgb(69, 65, 65);
+}
+
+.menu a:link {
+    color: rgb(69, 65, 65);
+    text-decoration: none;
+}
+
+.menu a:visited {
+    color: rgb(69, 65, 65);
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.menu a.active {
+    text-decoration: underline;
+    color: black;
+}
+
+.web-heading {
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+    color: rgb(69, 65, 65);
+}
+
+.page-heading {
+    font-family: Helvetica, sans-serif;
+    font-size: 37px;
+    color: rgb(69, 65, 65);
+}
+
+.heading {
+    font-family: Helvetica, sans-serif;
+    font-size: 34px;
+    color: rgb(69, 65, 65);
+}
+
+.subheading {
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(69, 65, 65);
+}
+
+.left-col {
+    float: left;
+    width: 52%;
+}
+
+.right-col {
+    float: right;
+    width: 42%;
+}
+
+.category-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.neighborhoods-main {
+    float: right;
+}
+
+.decades-main {
+    float: left;
+}
+
+.decades {
+    list-style: none;
+    padding-left: 0;
+    color: rgb(69, 65, 65);
+}
+
+.neighborhoods {
+    list-style: none;
+    padding-left: 0;
+    color: rgb(69, 65, 65);
+}
+
+.data-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.data-list-element {
+    font-family: "Courier New", monospace;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 25px;
+    padding-bottom: 2%;
+    color: rgb(69, 65, 65);
+}
+
+.data-list-element a:link {
+    color:rgb(69, 65, 65);
+}
+
+.data-list-element a:visited {
+    color:rgb(69, 65, 65);
+}
+
+.sort-by-option {
+    display: inline;
+}
+
+.paragraph-text {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    color: rgb(69, 65, 65);
+}
+
+.paragraph-text a:link {
+    color: rgb(69, 65, 65);
+    text-decoration: underline;
+}
+
+.paragraph-text a:visited {
+    color: rgb(69, 65, 65);
+    text-decoration: none;
+}
+
+.paragraph-text a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.data-image {
+    width: 100%;
+}
+
+.highlighted-quote {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: rgb(69, 65, 65);
+    font-weight: 500;
+}
+
+.names {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: rgb(69, 65, 65);
+    font-weight: 600;
+}
+
+#about-link {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    color: rgb(69, 65, 65);
+    padding: 0;
+}
