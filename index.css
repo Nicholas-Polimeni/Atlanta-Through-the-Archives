@@ -194,6 +194,10 @@ body {
     display: none;
 }
 
+.responsive-intro {
+    display: none;
+}
+
 @media only screen and (max-width: 1026px) {
     .nav-bar {
         display: none;
@@ -223,10 +227,22 @@ body {
         display: block;
     }
 
+    #about-link {
+        display: inline;
+    }
+
 }
 
 
 @media only screen and (max-width: 950px) {
+    .responsive-intro {
+        display: block;
+    }
+
+    .right-col {
+        display: none;
+    }
+
     .left-col {
         width: 100%;
     }
@@ -246,4 +262,9 @@ body {
     .neighborhoods-second {
         display: block;
     }
+
+    #about-link {
+        display: inline;
+    }
+
 }
